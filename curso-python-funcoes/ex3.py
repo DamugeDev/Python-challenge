@@ -4,4 +4,4 @@ def f_c(t):
     f=t-32
     return f"{t} ºC = {f}º F"
 
-print(f_c(40))
+print(f_c(float(input("Insira a temperatura em celcius: "))))

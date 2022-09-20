@@ -4,4 +4,4 @@ def area(r):
     a=math.pi*(r**2)
     return(a)
 
-print(area(2))
+print(area(int(input("Insira a area: "))))
